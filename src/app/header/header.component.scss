@@ -1,0 +1,17 @@
+#header{
+    float: left;
+    width: 20%;
+    position: fixed;
+}
+
+.conteneur{
+    display:inline-block;
+  }
+   
+  .content{
+    opacity:0;
+  }
+   
+  .conteneur:hover .content {
+    opacity:1;
+  }

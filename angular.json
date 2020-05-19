@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Terava"
+    }
+  },
+  "defaultProject": "Terava",
+  "cli": {
+    "analytics": "7c3fb907-c1a8-420f-90cf-587fa9c78589"
+  }
 }
