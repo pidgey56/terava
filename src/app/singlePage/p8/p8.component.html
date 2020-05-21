@@ -1,7 +1,30 @@
 <div *ngIf="size">
     <app-header></app-header>
 </div>
+
 <div id="conteneur">
-    <img id="gif" src="/assets/ungif.gif" style="width: 80%;">
-    <img id="image" src="/assets/0.jpg" style="width: 80%;">
+
 </div>
+<div id="conteneur2">
+<div class="container" style="max-width:60%">
+    <img id="1" class="mySlides" src="/assets/1a.jpg" style="width:100%">
+    <img id="2" class="mySlides" src="/assets/2a.jpg" style="width:100%">
+    <img id="3" class="mySlides" src="/assets/3a.jpg" style="width:100%">
+    <img id="4" class="mySlides" src="/assets/4a.jpg" style="width:100%">
+    
+    <div id="text"> 
+        <h2> TYPOGRAPHIE</h2>
+<p>Création typographique durant le workshop avec Roxane Gataud et Adrien Vasquez.</p>
+</div>
+    <img id="bande" src="/assets/banderole2.jpg" style="width:28%">
+    
+      <div class="left" (click)="plusDivs(-1)">&#10094;SLIDE&#10094;</div>
+      <div class="right" (click)="plusDivs(1)">&#10095;SLIDE&#10095;</div>
+        <!--- <img class="left" src="fleche.jpg" (click)="plusDivs(-1)">-->
+    
+    <img id="image" src="/assets/AA.png" style="width: 100%;">
+    <img id="image2" src="/assets/BB.png" style="width: 100%;">
+    
+    </div>
+</div>
+

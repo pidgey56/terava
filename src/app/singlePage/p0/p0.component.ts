@@ -9,19 +9,13 @@ export class P0Component implements OnInit {
 
   size = true;
   constructor() { }
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
   slideIndex = 1;
   ngOnInit(): void {
 
-    
+    //cette ligne est pour le slider d'images
     this.showDivs(this.slideIndex);
-    
-   
 
-
-
-
-
+    //la c'est pour caché le header quand l'image est trop petite
     if(window.innerHeight>window.innerWidth){
       this.size = false;
     }
@@ -38,6 +32,7 @@ export class P0Component implements OnInit {
   }
 
 
+//la c'est des fonctions qu'utilise le slider d'image
   plusDivs(n) {
     this.showDivs(this.slideIndex += n);
   }

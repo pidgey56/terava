@@ -39,6 +39,7 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     HomeComponentComponent,
+    P1Component,
     P2Component,
     P3Component,
     P4Component,
@@ -50,7 +51,6 @@ const routes: Routes = [
     P10Component,
     P0Component,
     HeaderComponent,
-    P1Component
   ],
   imports: [
     NgbModule,
