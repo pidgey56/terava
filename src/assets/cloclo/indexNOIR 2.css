@@ -1,0 +1,50 @@
+html, body {
+
+	background: black; 
+}
+
+.Niv1 {
+	position: absolute;
+	top: 40px;
+	left: 270px;
+	width: 350px;
+	height: 350px;
+	border: 2px solid white;
+	font-family: "liquido";
+	font-size: 100px;
+	color: white;
+}
+.Niv2 {
+	position: absolute;
+	top: 40px;
+	left: 810px;
+	width: 350px;
+	height: 350px;
+	border: 2px solid white;
+	font-family: "liquido";
+	font-size: 100px;
+	color: white;
+
+}
+.Niv3 {
+	position: absolute;
+	top: 460px;
+	left: 270px;
+	width: 350px;
+	height: 350px;
+	border: 2px solid white;
+	font-family: "liquido";
+	font-size: 100px;
+	color: white;
+}
+.Niv4 {
+	position: absolute;
+	top: 460px;
+	left: 810px;
+	width: 350px;
+	height: 350px;
+	border: 2px solid white;
+	font-family: "liquido";
+	font-size: 100px;
+	color: white;
+}

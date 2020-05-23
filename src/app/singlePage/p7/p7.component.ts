@@ -7,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class P7Component implements OnInit {
 
-  constructor() { }
   size = true;
+  constructor() { }
+  slideIndex = 1;
+  ngOnInit(): void {
 
-  ngOnInit(): void {    //initialisation
-    
+
+
+    //la c'est pour caché le header quand l'image est trop petite
     if(window.innerHeight>window.innerWidth){
       this.size = false;
     }
@@ -27,4 +30,7 @@ export class P7Component implements OnInit {
     })
   }
 
+
+
 }
+

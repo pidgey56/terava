@@ -6,11 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./p9.component.scss']
 })
 export class P9Component implements OnInit {
-  constructor() { }
-  size = true;
 
-  ngOnInit(): void {    //initialisation
-    
+  size = true;
+  constructor() { }
+  slideIndex = 1;
+  ngOnInit(): void {
+
+
+
+    //la c'est pour caché le header quand l'image est trop petite
     if(window.innerHeight>window.innerWidth){
       this.size = false;
     }
@@ -25,4 +29,7 @@ export class P9Component implements OnInit {
       }
     })
   }
+
+
 }
+

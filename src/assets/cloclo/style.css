@@ -1,0 +1,240 @@
+body {
+  background: black;
+}
+
+.fill_I {
+  background-image: url("images/I.png");
+  position: relative;
+  height:150px;
+  width: 150px;
+    top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.fill_M {
+  background-image: url('images/m.png');
+  position: relative;
+  height: 150px;
+  width: 150px;
+    top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.fill_A {
+  background-image: url('images/A.png');
+  position: relative;
+  height: 150px;
+  width: 150px;
+    top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+.fill_G {
+  background-image: url('images/G.png');
+  position: relative;
+  height: 150px;
+  width: 150px;
+    top: 5px;
+  left: 5px;
+
+  cursor: pointer;
+}
+.fill_E {
+  background-image: url('images/E.png');
+  position: relative;
+  height: 150px;
+  width: 150px;
+    top: 5px;
+    left: 5px;
+  cursor: pointer;
+}
+
+.hold {
+}
+
+.empty {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 3px white;
+    background: black;
+}
+
+.empty_1{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+   
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+.empty_2{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+ 
+    position: absolute;
+    top: 550px;
+    left: 370px;
+}
+.empty_3{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+   
+    position: absolute;
+    top: 550px;
+    left: 590px;
+
+}
+.empty_4{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+    
+    position: absolute;
+    top: 550px;
+    left: 810px;
+
+}
+.empty_5{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+
+    position: absolute;
+    top: 550px;
+    left: 1030px;
+
+}
+
+
+
+
+.empty_I{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+   
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    
+
+}
+.empty_M{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+
+    position: absolute;
+    top: 250px;
+    left: 370px;
+
+}
+.empty_A{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+
+    position: absolute;
+    top: 250px;
+    left: 590px;
+    
+}
+.empty_G{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+   
+    position: absolute;
+    top: 250px;
+    left: 810px;
+ 
+}
+.empty_E{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+
+    position: absolute;
+    top: 250px;
+    left: 1030px;
+}
+
+.hovered {
+  background: black;
+  border-style: dashed;
+}
+
+
+.Niveau1 {
+	position: absolute;
+	top: -110px;
+	left: 563px;
+	font-family: "liquido";
+	font-size: 140px;
+	color: white;
+}
+#Niv1 {
+	position: absolute;
+	top: 40px;
+	left: 440px;
+	width: 550px;
+	height: 160px;
+	border: 2px solid white;
+}
+
+
+#sortie {
+  color: white;
+    font-family: "akkurat";
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 20px;
+    
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+     border: solid 2px white;
+    padding: 5px 10px;
+
+    
+    
+}
+#check{
+    background-color: black;
+  border: solid 2px white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+  margin: 4px 2px;
+  cursor: pointer;
+    font-family: "liquido";
+    position: absolute;
+    left: 1100px;
+    top: 35px;
+    
+}

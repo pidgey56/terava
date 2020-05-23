@@ -19,7 +19,6 @@
     font-family: "Porpora";
     position:relative;
     left: 90%;
-    margin-bottom: 5%;
     
 } 
 
@@ -38,15 +37,16 @@
 #bande {
      position: fixed;
 left: 70%;
-    top: 25%;
+    bottom: 1%;
 }
 
-#image1{
-    position: absolute;
-    top: 100%;
+#image{
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
   
 #image2{
+     
 }
 
 @font-face {

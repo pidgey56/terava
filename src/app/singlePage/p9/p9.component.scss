@@ -1,4 +1,60 @@
 #conteneur{
+    margin-left: 22%;   
+}
+
+
+#conteneur2{
     margin-left: 22%;
-    
+    overflow-x: hidden;
+}
+
+.mySlides {display:none}
+
+
+
+.w3-badge {cursor:pointer} 
+
+#text{
+    color: white;
+    font-size: 15px;
+  
+    left: 70%;
+    top: 10%;
+      font-family: "Porpora";
+    position: fixed;
+}
+
+#code{
+    color: white;
+    font-size: 30px;
+    left: 70%;
+    top: 30%;
+      font-family: "Porpora";
+    position: fixed;
+}
+
+@font-face {
+  font-family: Porpora;
+  src: url(/../../assets/Porpora-Regular.ttf);
+}
+
+#image{
+    margin-bottom: 2%;
+
+}
+#image11{
+    position: relative;
+    margin-top: 2%;
+
+}
+
+#gif{
+ margin-top: 2%;
+}
+
+
+#bande {
+     position: fixed;
+left: 70%;
+    bottom: 1%;
 }

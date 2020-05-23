@@ -1,0 +1,42 @@
+html, body {
+
+	background: black; 
+}
+
+
+
+#Anagramme {
+	width: 1000px;
+	font-family: "liquido";
+	font-size: 135px;
+	color: white;
+
+}
+
+#Com {
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+	width: 200px;
+	height: 70px;
+	border: 2px solid white;
+}
+.Commencer {
+
+	position: absolute;
+	top: 655px;
+	left: 1028px;
+	font-family: "liquido";
+	font-size: 50px;
+	color: white;
+}
+
+#sortie {
+  color: white;
+    font-family: "akkurat";
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 20px;
+    
+}
