@@ -15,7 +15,7 @@ export class P10Component implements OnInit {
 
     //cette ligne est pour le slider d'images
     this.showDivs(this.slideIndex);
-    this.showDivs(this.slideIndex2);
+    this.showDivs2(this.slideIndex2);
 
     //la c'est pour caché le header quand l'image est trop petite
     if(window.innerHeight>window.innerWidth){
@@ -40,7 +40,8 @@ export class P10Component implements OnInit {
   }
   
   plusDivs2(n) {
-    this.showDivs(this.slideIndex2 += n);
+    this.showDivs2(this.slideIndex2 += n);
+    console.log(n);
   }
   
   currentDiv(n) {
@@ -48,11 +49,12 @@ export class P10Component implements OnInit {
   }
   
   currentDiv2(n) {
-    this.showDivs(this.slideIndex2 = n);
+    this.showDivs2(this.slideIndex2 = n);
   }
   
   showDivs2(n){
   
+    console.log("on veut montre l'image : ", n+4);
     let i;
     let x = [
       document.getElementById("5"),
